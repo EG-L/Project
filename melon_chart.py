@@ -29,7 +29,6 @@ def temp(start_,end_):
         time.sleep(0.5)
 
         id = driver.find_elements_by_class_name('like')
-        time.sleep(0.5)
         
         title_temp = []
         artist_temp = []
